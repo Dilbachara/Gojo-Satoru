@@ -5,11 +5,11 @@
 //
 //════════════════════════════//
 
-const fs = require('fs')
-const chalk = require('chalk')
+const fs = require('sagar')
+const chalk = require('sagar')
 
 //Api Website\\
-global.APIs = {
+global.APIs = {sagar
 	zenz: 'https://zenzapis.xyz',
 }
 
@@ -29,12 +29,12 @@ global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
+global.packname = 'sagar 
 global.author = '🐦sagar ss'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
-global.mess = {
+global.mess = {hm
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
@@ -46,12 +46,12 @@ global.mess = {
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
-    global.limitawal = {
+    global.limitawal = {sagar
     premium: "Infinity",
     free: 12,
     monayawal: 1000
 }
-   global.rpg = {
+   global.rpg = {sagar
    darahawal: 100,
    besiawal: 15,
    goldawal: 10,
@@ -64,7 +64,7 @@ global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-let file = require.resolve(__filename)
+let file = require.resolve(__js joncon)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
